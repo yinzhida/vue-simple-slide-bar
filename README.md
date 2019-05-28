@@ -14,6 +14,7 @@ npm i --save vue-simple-slide-bar
 // main.js
 import Vue from 'vue'
 import VueSimpleSlideBarPlugin from 'vue-simple-slide-bar'
+import 'vue-simple-slide-bar/dist/vue-simple-slide-bar.css'
 
 Vue.component('VueSimpleSlideBar', VueSimpleSlideBarPlugin)
 ```
@@ -23,6 +24,7 @@ or
 ```javascript
 // xxx.vue
 import VueSimpleSlideBar from 'vue-simple-slide-bar'
+import 'vue-simple-slide-bar/dist/vue-simple-slide-bar.css'
 
 export default {
   components: {
